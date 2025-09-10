@@ -160,6 +160,7 @@ public class TicTacToeApp {
 				if (prot.getState() == TicTacToeStates.FINISHED) {
 					if (game.getState() == TicTacToeWinner.DRAW) {
 						System.out.println("It's a draw!");
+						System.out.println("It's a change to the repo")
 					}
 					else if (mode == Mode.CLIENT) {
 						System.out.println("You won!");
